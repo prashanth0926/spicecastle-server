@@ -343,10 +343,6 @@
             "period": "Oct '16 to Feb '18",
             "role": "Software Developer",
             "description": "Harness the power of IoT data to help people and machine work better, smarter and faster by reducing downtime.",
-            "bullets": [
-                "Worked on various projects (teams) with wide variety of technologies through agile methodologies",
-                "Work closely with product and UX teams to understand the project requirements and prepare architecture design"
-            ],
             "projects": [
                 {
                     "name": "Symphony: Data Ingestion Tool",
@@ -385,9 +381,14 @@
             "industry": "Coaching",
             "icon": "gazelles.png",
             "period": "Sep '16 to Oct '16",
-            "role": "SOftware Developer",
-            "description": "",
-            "bullets": []
+            "role": "Software Developer",
+            "description": "A conference platform where leaders of some of today's most successful companies share their success stories, which would help business owners stategize their business.",
+            "bullets": [
+                "Built a hybrid mobile application using ionic",
+                "Added features to connect between users and messaging",
+                "Presented weekly demos on the application to stakeholders",
+                "Created a dashboard application for admin users using angular"
+            ]
         },
         {
             "name": "EGEN",
@@ -395,8 +396,13 @@
             "icon": "egen.jpg",
             "period": "Sep '16 to Present",
             "role": "Software Engineer",
-            "description": "",
-            "bullets": []
+            "description": "Data Engineering Organization that helps companies drive Innovation through the use of Technology.",
+            "bullets": [
+                "Worked on various projects (teams) with wide variety of technologies through agile methodologies",
+                "Work closely with product and UX teams to understand the project requirements and prepare architecture design",
+                "Participated in several hackathons and workshops",
+                "Presented a tech workshop on building an alexa skill"
+            ]
         },
         {
             "name": "VOX ASTRA",
@@ -404,8 +410,13 @@
             "icon": "voxastra.png",
             "period": "Mar '15 to Dec '15",
             "role": "Software Intern",
-            "description": "",
-            "bullets": []
+            "description": "Provide services and solutions to several clients",
+            "bullets": [
+                "Built a web application for HR Management of the firm",
+                "Developed entire JSP pages utilizing REST API’s using AJAX calls",
+                "Written SQL queries, stored procedures for MySQL database",
+                "Technologies: Java, JSP, AJAX, REST API, MySQL"
+            ]
         }
     ]
 }
