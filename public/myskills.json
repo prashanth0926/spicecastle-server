@@ -418,5 +418,35 @@
                 "Technologies: Java, JSP, AJAX, REST API, MySQL"
             ]
         }
+    ],
+    "work": [
+        {
+            "name": "Name",
+            "description": "Description",
+            "type": "Type",
+            "period": "Date",
+            "link": "Link"
+        },
+        {
+            "name": "Lazy Composer",
+            "description": "Node-cli to clone and bootstrap and run multiple apps at one place",
+            "type": "Personal project",
+            "period": "May '18",
+            "link": "https://www.npmjs.com/package/lazy-composer"
+        },
+        {
+            "name": "Smart Energy Forecaster",
+            "description": "a business model application which predicts energy generation from solar and wind",
+            "type": "Hackathon",            
+            "period": "Nov '17",
+            "link": ""
+        },
+        {
+            "name": "Lunch Time",
+            "description": "An Alexa skill that suggests you a restaurant for lunch",
+            "type": "Personal project",
+            "period": "Nov '17",
+            "link": "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dalexa-skills&field-keywords=lunch+time"
+        }
     ]
 }
