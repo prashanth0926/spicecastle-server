@@ -353,8 +353,7 @@
                 {
                     "name": "Data Mapping Tool (DMT)",
                     "bullets": [
-                        "Built UI components to create schemas using the source fields for data mapping, user management using ReactJS",
-                        "Contributed in the development of react based expandable-tree component, which was built for this project"
+                        "Built UI components to create schemas using the source fields for data mapping, user management using ReactJS"
                     ]
                 },
                 {
@@ -447,6 +446,48 @@
             "type": "Personal project",
             "period": "Nov '17",
             "link": "https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dalexa-skills&field-keywords=lunch+time"
+        },
+        {
+            "name": "React Super Treeview",
+            "description": "Contributed to a React component to expand / collapse multiple deep level tree nodes",
+            "type": "Uptake",
+            "period": "Nov '17",
+            "link": "https://www.npmjs.com/package/react-super-treeview"
+        },
+        {
+            "name": "Unstructured Data Pipelines",
+            "description": "Platform to process unstructured data, running multiple pipelines",
+            "type": "Hackathon",
+            "period": "Sep '17",
+            "link": ""
+        },
+        {
+            "name": "Upflow",
+            "description": "QA forum platform like stackoverflow",
+            "type": "Hackathon",
+            "period": "May '17",
+            "link": "https://upflower.herokuapp.com/"
+        },
+        {
+            "name": "Spicecastle",
+            "description": "A demo application for a restaurant",
+            "type": "Personal project",
+            "period": "Jan '16",
+            "link": "https://secure-cliffs-69558.herokuapp.com/"
+        },
+        {
+            "name": "Goshop",
+            "description": "Android mobile app for grocery delivery",
+            "type": "Academic project",
+            "period": "May '16",
+            "link": ""
+        },
+        {
+            "name": "Hotelpedia",
+            "description": "A hotel reservation system based application",
+            "type": "Academic project",
+            "period": "May '16",
+            "link": ""
         }
     ]
 }
