@@ -11,19 +11,25 @@ var promoRouter = require('./routes/promoRouter');
 var leaderRouter = require('./routes/leaderRouter');
 var feedbackRouter = require('./routes/feedbackRouter');
 var restaurantsRouter = require('./routes/restaurantsRouter');
+var portRouter = require('./routes/portRouter');
 
 var app = express();
 
 //database connection
 var mongoose = require('mongoose');
 var url = 'mongodb://admin:1@ds064278.mlab.com:64278/confusion';
-mongoose.connect(url);
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function () {
-    // we're connected!
-    console.log("Connected correctly to server");
+var db = mongoose.connect(url, {
+  useMongoClient: true
 });
+db.then((err, res) => {
+  if(err) console.error.bind(console, 'connection error:');
+  else console.log("Connected correctly to server");
+});
+// db.on('error', console.error.bind(console, 'connection error:'));
+// db.once('open', function () {
+//     // we're connected!
+//     console.log("Connected correctly to server");
+// });
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -52,6 +58,7 @@ app.use('/promotions',promoRouter);
 app.use('/leadership',leaderRouter);
 app.use('/feedback',feedbackRouter);
 app.use('/restaurants',restaurantsRouter);
+app.use('/port',portRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
