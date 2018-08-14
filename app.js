@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -11,13 +10,12 @@ var promoRouter = require('./routes/promoRouter');
 var leaderRouter = require('./routes/leaderRouter');
 var feedbackRouter = require('./routes/feedbackRouter');
 var restaurantsRouter = require('./routes/restaurantsRouter');
-var portRouter = require('./routes/portRouter');
 
 var app = express();
 
 //database connection
 var mongoose = require('mongoose');
-var url = 'mongodb://admin:1@ds064278.mlab.com:64278/confusion';
+var url = process.env.MONGO_URL;
 var db = mongoose.connect(url, {
   useMongoClient: true
 });
@@ -58,7 +56,6 @@ app.use('/promotions',promoRouter);
 app.use('/leadership',leaderRouter);
 app.use('/feedback',feedbackRouter);
 app.use('/restaurants',restaurantsRouter);
-app.use('/port',portRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
