@@ -14,7 +14,7 @@
     "fetch": "^1.1.0",
     "jade": "^1.11.0",
     "lodash": "^4.17.4",
-    "mongoose": "^4.4.11",
+    "mongoose": "^5.7.5",
     "mongoose-currency": "^0.2.0",
     "mongoose-type-email": "^1.0.2",
     "morgan": "^1.6.1",
