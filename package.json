@@ -13,7 +13,7 @@
     "express": "^4.13.1",
     "fetch": "^1.1.0",
     "jade": "^1.11.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "mongoose": "^4.4.11",
     "mongoose-currency": "^0.2.0",
     "mongoose-type-email": "^1.0.2",
